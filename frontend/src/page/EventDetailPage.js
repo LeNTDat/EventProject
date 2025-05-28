@@ -1,4 +1,4 @@
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 
 function EventDetailPage(){
 
@@ -8,6 +8,7 @@ function EventDetailPage(){
         <p>
             {param.id}
         </p>
+        <Link to="..." relative="...">Back</Link>
     </div>
 }
 
